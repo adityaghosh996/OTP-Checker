@@ -1,4 +1,10 @@
-.primary-header {
-  color: blue;
-  font-size: 24px;
+.mainDiv {
+  margin: auto;
+  padding: 200px;
+  text-align: center;
+  border: 1px;
+}
+
+.label {
+  color: red;
 }

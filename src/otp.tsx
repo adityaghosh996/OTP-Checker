@@ -54,17 +54,10 @@ class Otp extends React.Component<
   render() {
     console.log(this.state);
     return (
-      <div
-        style={{
-          position: "absolute",
-          left: "50%",
-          top: "50%",
-          transform: "translate(-50%, -50%)"
-        }}
-      >
+      <div className="mainDiv">
         <Input
           type="text"
-          style={{ textAlign: "center" }}
+          className="otpBox"
           value={this.state.otp}
           onChange={this.handleChange}
           placeholder="Enter OTP"
@@ -81,7 +74,7 @@ class Otp extends React.Component<
         </Button>
         <br />
         <br />
-        <label hidden={!this.state.isDisabled}>
+        <label hidden={!this.state.isDisabled} className="label">
           Try again in {this.state.counter} seconds !
         </label>
       </div>
