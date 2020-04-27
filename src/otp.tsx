@@ -57,7 +57,6 @@ class Otp extends React.Component<
       <div className="mainDiv">
         <Input
           type="text"
-          className="otpBox"
           value={this.state.otp}
           onChange={this.handleChange}
           placeholder="Enter OTP"
