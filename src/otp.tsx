@@ -66,6 +66,7 @@ class Otp extends React.Component<
           style={{ textAlign: "center" }}
           value={this.state.otp}
           onChange={this.handleChange}
+          placeholder="Enter OTP"
         />
         <br />
         <br />
@@ -74,12 +75,8 @@ class Otp extends React.Component<
           disabled={this.state.isDisabled}
           color="primary"
           variant="contained"
-          style={{
-            position: "absolute",
-            left: "25%"
-          }}
         >
-          Check
+          Submit OTP
         </Button>
         <br />
         <br />
